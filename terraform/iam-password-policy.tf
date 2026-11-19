@@ -1,0 +1,9 @@
+resource "aws_iam_account_password_policy" "p30_weak_password_policy" {
+  minimum_password_length        = 8
+  require_symbols                = false
+  require_numbers                = false
+  require_uppercase_characters   = false
+  require_lowercase_characters   = true
+  allow_users_to_change_password = true
+  password_reuse_prevention      = 1
+}
