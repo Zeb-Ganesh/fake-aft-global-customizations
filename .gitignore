@@ -1,0 +1,5 @@
+# Keep scan reports and documents out of the remote repo
+*.csv
+*.doc
+*.docx
+~$*
